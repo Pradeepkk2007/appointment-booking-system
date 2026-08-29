@@ -172,6 +172,3 @@ All authenticated routes expect header: `Authorization: Bearer <token>`.
 
 ---
 
-## 9. Notes on Scope
-
-This was built to a **1-hour turnaround** as a practical assignment — it favors a clean, understandable architecture over exhaustive production hardening (no rate limiting, no email verification, no automated tests, no refresh-token rotation). Given more time, natural next steps would be: per-service configurable working hours, appointment reminders, automated tests (Jest/Supertest), and refresh tokens.
